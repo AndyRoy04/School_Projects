@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="5D62C618-AC7E-4f92-AF68-CD27C6E3FE05" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-0C-79-44" com_port="2000" bootmode="0" cx="173.000000" cy="273.000000" edit_left="199" edit_top="256">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="A5BFCDE0-6763-4735-B1AA-7C5DEB35252B" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-59-33-56" com_port="2001" bootmode="0" cx="573.000000" cy="273.000000" edit_left="600" edit_top="254">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="5D62C618-AC7E-4f92-AF68-CD27C6E3FE05" destDeviceID="A5BFCDE0-6763-4735-B1AA-7C5DEB35252B">
+            <interfacePair lineName="Copper" srcIndex="5" srcBoundRectIsMoved="1" srcBoundRect_X="243.183762" srcBoundRect_Y="300.000000" srcOffset_X="-4.000000" srcOffset_Y="-17.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="556.816223" tarBoundRect_Y="300.000000" tarOffset_X="-35.000000" tarOffset_Y="-19.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="153" top="341" right="248" bottom="361" content="FTP Client" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="559" top="338" right="654" bottom="358" content="FTP Server" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

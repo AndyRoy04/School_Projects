@@ -1,0 +1,19 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F84A -DL -O11111114 -fo1 -N"D:\300.2\EEF 368 micro lab\lab2\microlab\microCPush.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"D:\300.2\EEF 368 micro lab\lab2\microlab\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "microCPush.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 52 [bytes], Available ROM: 1024 [bytes]	 
+diagnostics: 0	122	Compilation Started	microCPush.c
+error: 6	315	Invalid expression	microCPush.c
+error: 5	402	; expected, but 'int' found	microCPush.c
+error: 6	424	'}' expected ';' found	microCPush.c
+error: 12	371	Specifier needed	microCPush.c
+error: 12	396	Invalid declarator expected'(' or identifier	microCPush.c
+error: 13	324	Undeclared identifier 'seg' in expression	microCPush.c
+error: 13	324	Undeclared identifier 'i' in expression	microCPush.c
+error: 13	322	Pointer required	microCPush.c
+error: 14	371	Specifier needed	microCPush.c
+error: 14	300	Syntax Error: ')' expected,  but '100' found	microCPush.c
+error: 15	371	Specifier needed	microCPush.c
+error: 15	396	Invalid declarator expected'(' or identifier	microCPush.c
+error: 17	402	; expected, but '}' found	microCPush.c
+error: 17	393	'' Identifier redefined	microCPush.c
+error: 17	312	Internal error ''	microCPush.c
+error: 0	102	Finished (with errors): 15 May 2023, 23:49:44	microCPush.mcppi

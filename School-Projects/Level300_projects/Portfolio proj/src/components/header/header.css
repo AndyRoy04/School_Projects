@@ -1,0 +1,141 @@
+header {
+    height: 100vh; /*vh correspond to viewport height*/
+    padding-top: 7rem;
+    overflow: hidden;
+  }
+  .header__container {
+    height: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .beauty:active{
+    scale: 1;
+  }
+  svg{
+    overflow: visible;
+  }
+  .sparkle path{
+    color: hsl(0 0% calc((var(--active, 0) * 70%)));
+    transform-box: fill-box;
+    transform-origin: center;
+    fill: currentColor;
+    stroke: currentColor;
+    animation-delay: calc((var(--transition) * 1.5));
+    animation-duration: 0.6s;
+    transition: color var(--transition);
+  }
+  .beauty:is(:hover, :focus-visible) path{
+    animation-name: bounce;
+  }
+  
+  /* .bg-txt{
+    font-family:dock11;
+    font-size:60px;
+    color:#252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform:uppercase;
+  }
+  .bg-txt::before{
+    content:attr(data-text);
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:22%;
+    color:#01fe87;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right:2px solid #01fe87;
+    overflow:hidden;
+    animation:animate 10s steps(2,3);
+  }
+  @keyframes animate{
+    0%,10%,100%{
+      width: 0;
+    }
+    50%, 70%, 90%{
+      width:100%;
+    }
+  } */
+  .btn{
+    border-color: #646464;
+    color: #646464;
+  }
+  .btn-primary{
+    background-color: #646464;
+    color: black;
+  }
+  .cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+  .header__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+  }
+  .header__social::after {
+    /*the after tag help us to draw the vertical line we have
+      after the social icons*/
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+  }
+  .my_image {
+    background: linear-gradient(
+      180deg, #646464, transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem); 
+    /*this help to place the image to the middle of screen*/
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+  
+  img:hover{
+    transform: scale(1.5);
+    transition: all 3s ease;
+    margin-right: 6%;
+    margin-left: 5%;
+  }
+  .scroll__down {
+    position: absolute;
+    right: -2rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-weight: 0.9rem;
+    color: #646464;
+  }
+  
+  /* .scroll__down:hover{
+    transform: rotate(359deg) scale(2);
+    transition: all 2s ease;
+  } */
+  /*This is what we call media query: here we define the css that will be apply for a
+      specific screen*/
+  @media screen and(max-width:1024px) {
+    header {
+      height: 68vh;
+    }
+  }
+  @media screen and(max-width:600px) {
+    header {
+      height: 100vh;
+    }
+    .header__social,
+    .scroll__down {
+      display: none;
+    }
+  }
+  

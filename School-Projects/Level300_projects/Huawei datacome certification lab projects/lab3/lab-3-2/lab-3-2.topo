@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="441C35E9-18F3-4768-AEE4-E86BDE41B756" name="LSW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-41-04-06" com_port="2002" bootmode="0" cx="73.000000" cy="373.000000" edit_left="100" edit_top="427">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="A013D866-D4F2-40c5-B3E5-7EF6D22BE484" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-7A-7B-6D" com_port="2000" bootmode="0" cx="73.000000" cy="173.000000" edit_left="54" edit_top="194">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="451571D3-C4F4-4469-8831-ACFB7E87140D" name="LSW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-2E-3F-82" com_port="2001" bootmode="0" cx="673.000000" cy="173.000000" edit_left="743" edit_top="192">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="AAF12A8C-5B9D-4d26-B75D-AEAD3D68A15D" name="LSW4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-6C-3B-37" com_port="2003" bootmode="0" cx="673.000000" cy="373.000000" edit_left="700" edit_top="427">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="441C35E9-18F3-4768-AEE4-E86BDE41B756" destDeviceID="AAF12A8C-5B9D-4d26-B75D-AEAD3D68A15D">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="143.183762" srcBoundRect_Y="400.000000" srcOffset_X="-10.000000" srcOffset_Y="13.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="656.816223" tarBoundRect_Y="400.000000" tarOffset_X="-31.000000" tarOffset_Y="7.000000" />
+        </line>
+        <line srcDeviceID="441C35E9-18F3-4768-AEE4-E86BDE41B756" destDeviceID="A013D866-D4F2-40c5-B3E5-7EF6D22BE484">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="100.000000" srcBoundRect_Y="356.816223" srcOffset_X="-49.000000" srcOffset_Y="0.000000" tarIndex="12" tarBoundRectIsMoved="1" tarBoundRect_X="100.000000" tarBoundRect_Y="243.183762" tarOffset_X="-55.000000" tarOffset_Y="5.000000" />
+        </line>
+        <line srcDeviceID="A013D866-D4F2-40c5-B3E5-7EF6D22BE484" destDeviceID="AAF12A8C-5B9D-4d26-B75D-AEAD3D68A15D">
+            <interfacePair lineName="Copper" srcIndex="13" srcBoundRectIsMoved="1" srcBoundRect_X="140.967712" srcBoundRect_Y="213.655899" srcOffset_X="-22.000000" srcOffset_Y="11.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="659.032288" tarBoundRect_Y="386.344086" tarOffset_X="-33.000000" tarOffset_Y="-25.000000" />
+        </line>
+        <line srcDeviceID="441C35E9-18F3-4768-AEE4-E86BDE41B756" destDeviceID="451571D3-C4F4-4469-8831-ACFB7E87140D">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="140.967712" srcBoundRect_Y="386.344086" srcOffset_X="-16.000000" srcOffset_Y="-22.000000" tarIndex="12" tarBoundRectIsMoved="1" tarBoundRect_X="659.032288" tarBoundRect_Y="213.655899" tarOffset_X="-27.000000" tarOffset_Y="17.000000" />
+        </line>
+        <line srcDeviceID="AAF12A8C-5B9D-4d26-B75D-AEAD3D68A15D" destDeviceID="451571D3-C4F4-4469-8831-ACFB7E87140D">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="700.000000" srcBoundRect_Y="356.816223" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="13" tarBoundRectIsMoved="0" tarBoundRect_X="700.000000" tarBoundRect_Y="243.183762" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="A013D866-D4F2-40c5-B3E5-7EF6D22BE484" destDeviceID="451571D3-C4F4-4469-8831-ACFB7E87140D">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="1" srcBoundRect_X="143.183762" srcBoundRect_Y="200.000000" srcOffset_X="-7.000000" srcOffset_Y="-15.000000" tarIndex="9" tarBoundRectIsMoved="1" tarBoundRect_X="656.816223" tarBoundRect_Y="200.000000" tarOffset_X="-33.000000" tarOffset_Y="-16.000000" />
+            <interfacePair lineName="Copper" srcIndex="10" srcBoundRectIsMoved="0" srcBoundRect_X="155.183762" srcBoundRect_Y="212.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="10" tarBoundRectIsMoved="1" tarBoundRect_X="668.816223" tarBoundRect_Y="212.000000" tarOffset_X="-75.000000" tarOffset_Y="-1.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>

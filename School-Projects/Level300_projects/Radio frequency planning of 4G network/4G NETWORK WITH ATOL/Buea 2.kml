@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Buea 2</name>
+	<gx:CascadingStyle kml:id="__managed_style_29E30BC0B529A6DB0FD2">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40a21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1CFBEA5A3229A6DB0FD2">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40a21f7b</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0C6A4B50DB29A6DB0FD2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1CFBEA5A3229A6DB0FD2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_29E30BC0B529A6DB0FD2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0053C3091529A6DA7585">
+		<name>Buea</name>
+		<LookAt>
+			<longitude>9.299101966516798</longitude>
+			<latitude>4.153238195110212</latitude>
+			<altitude>534.3887826424466</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>18702.53226013855</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0C6A4B50DB29A6DB0FD2</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						9.271539667350693,4.143409942128378,646.6583312010496 9.297298661208659,4.143760972017439,524.1108126746586 9.297992071817871,4.138501335807358,521.4386119359623 9.305914325757513,4.135280945860646,482.2184257091981 9.312900154750672,4.129675237088815,435.6013440951843 9.324592272169161,4.142887697771477,447.2839368114153 9.317169269144387,4.150812232141057,489.0859366352817 9.316731827504515,4.161475885712578,511.1150500048026 9.31075009926718,4.166169331205546,531.2997567830189 9.305755382728956,4.16588772532203,538.6685901648708 9.302011521587271,4.167816599971628,547.1270599216919 9.27932661504121,4.182479571866102,712.9607617149135 9.273609063600652,4.178047820520852,749.2580990202775 9.274906039525071,4.171816578547803,692.4720559732348 9.257808771898626,4.171926131220209,854.5744828695726 9.21913209922684,4.168089816846529,1381.54528793374 9.208838999800406,4.157121420354104,1415.631940726508 9.208002514625779,4.148391471073753,1303.076856521966 9.22306592679907,4.128882067984275,892.7123088281842 9.231751996912402,4.126952306009866,774.5744296155926 9.271539667350693,4.143409942128378,646.6583312010496 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
